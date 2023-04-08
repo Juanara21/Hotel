@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MenuItem } from 'primeng/api';
+
 
 @Component({
   selector: 'app-aside',
@@ -8,23 +8,9 @@ import { MenuItem } from 'primeng/api';
 })
 
 
-export class AsideComponent implements OnInit {
+export class AsideComponent  {
 
     
-   items: MenuItem[]=[];
-
-    ngOnInit() {
-        this.items = [
-            {
-                label: 'New',
-                icon: 'pi pi-fw pi-plus',
-            },
-            {
-                label: 'Delete',
-                icon: 'pi pi-fw pi-trash'
-            }
-        ];
-    }
 }
 
       

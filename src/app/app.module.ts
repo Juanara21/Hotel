@@ -7,7 +7,7 @@ import { HeaderComponent } from './components/layout/header/header.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
 import { SectionComponent } from './components/layout/section/section.component';
 import { AsideComponent } from './components/layout/aside/aside.component';
-import { MenuModule } from 'primeng/menu';
+import { MegaMenuModule } from 'primeng/megamenu';
 import { DetallesHotelComponent } from './components/layout/detalles-hotel/detalles-hotel.component';
 import { ReservaHotelComponent } from './components/layout/reserva-hotel/reserva-hotel.component';
 import { AdministracionHotelComponent } from './components/layout/administracion-hotel/administracion-hotel.component';
