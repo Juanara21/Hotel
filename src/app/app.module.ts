@@ -15,7 +15,10 @@ import { ReservaHotelComponent } from './components/layout/reserva-hotel/reserva
 import { AdministracionHotelComponent } from './components/layout/administracion-hotel/administracion-hotel.component';
 import { RegistrarComponent } from './components/layout/registrar/registrar.component';
 import { ButtonModule } from 'primeng/button';
+import { FormsModule } from '@angular/forms';
 import { PasswordModule } from 'primeng/password';
+import { InputTextModule } from 'primeng/inputtext';
+import { RadioButtonModule } from 'primeng/radiobutton';
 
 const appRoutes: Routes = [
   { path:'admin',component:AdministracionHotelComponent},
@@ -46,7 +49,10 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     TabMenuModule,
     ButtonModule,
-    PasswordModule
+    PasswordModule,
+    FormsModule,
+    InputTextModule,
+    RadioButtonModule
 
   ],
   providers: [],
