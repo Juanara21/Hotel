@@ -4,7 +4,7 @@ main{
     gap: 10px;
     grid-template-areas:
             "header header  header  header  header"
-            "aside section section section section"
+            "section section section section section"
             "pie pie pie  pie  pie";
     row-gap: 0;
 
@@ -17,20 +17,13 @@ main{
 header {
 
     grid-area: header;
-    background: #000000f1;
+    background: #46b5fff1;
     color: #ffffff;
+    height: 60px ;
    
     
 }
-aside {
 
-    background: #1783db;
-    color: white;
-    grid-area: aside;
-   
-    height: 100%; /* Agregamos una altura del 100% para que el aside tenga la misma altura que la ventana gráfica */
-
-}
 section {
 
     display: grid;

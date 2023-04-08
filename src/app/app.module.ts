@@ -13,6 +13,7 @@ import { TabMenuModule } from 'primeng/tabmenu';
 import { DetallesHotelComponent } from './components/layout/detalles-hotel/detalles-hotel.component';
 import { ReservaHotelComponent } from './components/layout/reserva-hotel/reserva-hotel.component';
 import { AdministracionHotelComponent } from './components/layout/administracion-hotel/administracion-hotel.component';
+import { RegistrarComponent } from './components/layout/registrar/registrar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AdministracionHotelComponent } from './components/layout/administracion
     SectionComponent,
     DetallesHotelComponent,
     ReservaHotelComponent,
-    AdministracionHotelComponent
+    AdministracionHotelComponent,
+    RegistrarComponent
   ],
   imports: [
     BrowserModule,
