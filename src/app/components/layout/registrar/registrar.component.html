@@ -1,39 +1,59 @@
-<div>
-    <form>
+<div class="todo">
+    <div class="contenedor">
+    
         <h2>Registrarse</h2>
+                
         
-        
-        <div class="card flex justify-content-center">
-            <input pInputText pKeyFilter="int" placeholder="Primer Nombre" [(ngModel)]="value1" />
-            <input pInputText pKeyFilter="int" placeholder="Segundo Nombre" [(ngModel)]="value1" />
-            <input pInputText pKeyFilter="int" placeholder="Primer Apellido" [(ngModel)]="value1" />
-            <input pInputText pKeyFilter="int" placeholder="Segundo Apellido" [(ngModel)]="value1" />
-            <input pInputText pKeyFilter="int" placeholder="identificación" [(ngModel)]="value1" />
-            <input pInputText pKeyFilter="int" placeholder="Correo" [(ngModel)]="value1" />
+        <div class="card flex  justify-content-center">
+            <input pInputText  placeholder="Primer Nombre" [(ngModel)]="Nombre1"  />
         </div>
-        
-       
-        <div class="card flex justify-content-center">
-            <div class="flex flex-column gap-3">
-                <div *ngFor="let category of categories" class="field-checkbox">
-                    <p-radioButton [inputId]="category.key" name="category" [value]="category" [(ngModel)]="selectedCategory"></p-radioButton>
-                    <label [for]="category.key" class="ml-2">{{ category.name }}</label>
+        <div class="card flex  justify-content-center">
+            <input pInputText  placeholder="Segundo Nombre" [(ngModel)]="Nombre2"  />
+        </div>
+        <div class="card flex  justify-content-center">
+            <input pInputText  placeholder="Primer Apellido" [(ngModel)]="Apellido1"  />
+        </div>
+        <div class="card flex  justify-content-center">
+            <input pInputText  placeholder="Segundo Apellido" [(ngModel)]="Apellido2"  />
+        </div>
+        <div class="card flex  justify-content-center">
+            <input pInputText  placeholder="identificación" [(ngModel)]="Identificacion"  />
+        </div>
+    
+            <div class="card flex " style="margin-left: 10px; justify-content: space-between; flex-flow: column wrap">
+                <div class="flex align-items-center">
+                    <p-radioButton name="Masculino" value="M" [(ngModel)]="Sexo" inputId="Masculino"></p-radioButton>
+                    <label for="Masculino" class="ml-2">Masculino</label>
+                </div>
+                
+                <div class="flex align-items-center">
+                    <p-radioButton name="Femenino" value="F" [(ngModel)]="Sexo" inputId="Femenino"></p-radioButton>
+                    <label for="Femenino" class="ml-2">Femenino</label>
+                </div>
+                
+                <div class="flex align-items-center">
+                    <p-radioButton name="Otro" value="O" [(ngModel)]="Sexo" inputId="Otro"></p-radioButton>
+                    <label for="Otro" class="ml-2">Otro</label>
+                </div>
+                
+                <div class="flex align-items-center">
+                    <p-radioButton name="Indefinido" value="Onion" [(ngModel)]="Sexo" inputId="Indefinido"></p-radioButton>
+                    <label for="Indefinido" class="ml-2">Indefinido</label>
                 </div>
             </div>
-        </div>  
-       
         
-        <div class="card flex justify-content-center">
+        <div class="card flex  justify-content-center"> 
+            <input pInputText  placeholder="Correo" [(ngModel)]="Correo" />
+        </div>
+
+        <div class="card flex justify-content-center" >
             <p-password [(ngModel)]="value" [toggleMask]="true"></p-password>
-        </div>
-       
-        <div class="card flex flex-wrap gap-3 justify-content-center">
-            <p-button label="Registrar"></p-button>
-            
-        </div>
+        </div>        
         
-       
 
-
-    </form>
+        <div class="card flex flex-wrap gap-3 justify-content-center" >
+        <p-button label="Registrarse"></p-button>
+        </div>
+     
+</div>
 </div>
