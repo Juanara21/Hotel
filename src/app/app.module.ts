@@ -14,6 +14,8 @@ import { DetallesHotelComponent } from './components/layout/detalles-hotel/detal
 import { ReservaHotelComponent } from './components/layout/reserva-hotel/reserva-hotel.component';
 import { AdministracionHotelComponent } from './components/layout/administracion-hotel/administracion-hotel.component';
 import { RegistrarComponent } from './components/layout/registrar/registrar.component';
+import { ButtonModule } from 'primeng/button';
+import { PasswordModule } from 'primeng/password';
 
 const appRoutes: Routes = [
   { path:'admin',component:AdministracionHotelComponent},
@@ -42,7 +44,10 @@ const appRoutes: Routes = [
     RouterModule.forRoot(appRoutes),
     MenuModule,
     BrowserAnimationsModule,
-    TabMenuModule
+    TabMenuModule,
+    ButtonModule,
+    PasswordModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
