@@ -13,10 +13,10 @@ export class HeaderComponent implements OnInit {
       ngOnInit() {
           this.items = [
               { label: 'Home', icon: 'pi pi-fw pi-home', routerLink: '/' },
-              { label: 'Nuestros Hoteles', icon: 'pi pi-fw pi-file', routerLink: '/administracion-hotel' },
-              { label: 'Reservar', icon: 'pi pi-fw pi-calendar' , routerLink: '/reserva-hotel'},
+              { label: 'Nuestros Hoteles', icon: 'pi pi-fw pi-file', routerLink: '/detalle' },
+              { label: 'Reservar', icon: 'pi pi-fw pi-calendar' , routerLink: '/reservar'},
               { label: 'Registrarse', icon: 'pi pi-fw pi-pencil', routerLink: '/registrar' },
-              { label: 'Administracion', icon: 'pi pi-fw pi-cog' , routerLink: '/detalles-hotel'  }
+              { label: 'Administracion', icon: 'pi pi-fw pi-cog' , routerLink: '/admin'  }
           ];
       }
   }

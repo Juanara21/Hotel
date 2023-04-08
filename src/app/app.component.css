@@ -1,44 +1,33 @@
-main{
-    
+/* Definimos la estructura de la cuadrícula */
+main {
     display: grid;
-    gap: 10px;
     grid-template-areas:
-            "header header  header  header  header"
-            "section section section section section"
-            "pie pie pie  pie  pie";
-    row-gap: 0;
-
-    column-gap: 0;
-    grid-template-rows: 10% 90%;
-    height: 98vh;
-
-}
-
-header {
+      "header"
+      "section"
+      "footer";
+    grid-template-rows: auto 1fr auto; /* Definimos las filas */
+    min-height: 100vh; /* Altura mínima del main */
+  }
+  
+  /* Definimos las áreas del header, section y footer */
+  header {
 
     grid-area: header;
-    background: #46b5fff1;
+    background: #17addb;
     color: #ffffff;
-    height: 60px ;
-   
+    padding: 5px;
     
 }
-
-section {
-
-    display: grid;
-    grid-template-areas: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    overflow-y: auto;
-
-}
+  
+  section {
+    grid-area: section;
+    background-color: #f7f7f7;
+    padding: 1rem;
+  }
+  
   footer {
-
-    grid-area: pie; 
     background: #000000dc;
     color: #ffffffd0;
     height: 50px; 
-
-
-}
+  }
+  

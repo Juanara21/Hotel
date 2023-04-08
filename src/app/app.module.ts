@@ -16,10 +16,10 @@ import { AdministracionHotelComponent } from './components/layout/administracion
 import { RegistrarComponent } from './components/layout/registrar/registrar.component';
 
 const appRoutes: Routes = [
-  { path:'administracion-hotel',component:AdministracionHotelComponent},
-  { path:'detalles-hotel',component:DetallesHotelComponent},
+  { path:'admin',component:AdministracionHotelComponent},
+  { path:'detalle',component:DetallesHotelComponent},
   { path:'registrar',component:RegistrarComponent},
-  { path:'reserva-hotel',component:ReservaHotelComponent},
+  { path:'reservar',component:ReservaHotelComponent},
   { path:'',component:SectionComponent}
 
 ];
@@ -39,7 +39,7 @@ const appRoutes: Routes = [
     BrowserModule,
     AppRoutingModule,
     MegaMenuModule,
-    RouterModule,
+    RouterModule.forRoot(appRoutes),
     MenuModule,
     BrowserAnimationsModule,
     TabMenuModule
