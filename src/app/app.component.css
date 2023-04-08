@@ -19,6 +19,7 @@ header {
     grid-area: header;
     background: #000000f1;
     color: #ffffff;
+   
     
 }
 aside {
@@ -26,7 +27,7 @@ aside {
     background: #1783db;
     color: white;
     grid-area: aside;
-    font-size: 18px;
+   
     height: 100%; /* Agregamos una altura del 100% para que el aside tenga la misma altura que la ventana gráfica */
 
 }
