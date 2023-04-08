@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { FooterComponent } from './components/layout/footer/footer.component';
 import { SectionComponent } from './components/layout/section/section.component';
-import { AsideComponent } from './components/layout/aside/aside.component';
+
 import { MegaMenuModule } from 'primeng/megamenu';
 import { MenuModule } from 'primeng/menu';
 import { TabMenuModule } from 'primeng/tabmenu';
@@ -18,7 +18,7 @@ import { AdministracionHotelComponent } from './components/layout/administracion
   declarations: [
     AppComponent,
     HeaderComponent,
-    AsideComponent,
+  
     FooterComponent,
     SectionComponent,
     DetallesHotelComponent,
