@@ -20,6 +20,7 @@ import { PasswordModule } from 'primeng/password';
 import { InputTextModule } from 'primeng/inputtext';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { DataViewModule, DataViewLayoutOptions } from 'primeng/dataview';
+import { CardModule } from 'primeng/card';
 
 const appRoutes: Routes = [
   { path:'admin',component:AdministracionHotelComponent},
@@ -55,6 +56,7 @@ const appRoutes: Routes = [
     InputTextModule,
     RadioButtonModule,
     DataViewModule, 
+    CardModule
     
    
 
