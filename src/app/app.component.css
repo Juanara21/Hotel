@@ -15,7 +15,8 @@ main {
     grid-area: header;
     background: #17addb;
     color: #ffffff;
-    padding: 5px;
+    padding: 15px;
+    height: 100px;
     
 }
   
