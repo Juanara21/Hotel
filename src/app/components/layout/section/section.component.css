@@ -3,7 +3,7 @@
     height: 200px;
     background-image: url('/assets/img/home.jpg');
     background-size: cover;
-    position: absolute;
+    position: relative;
 }
 #logo_home{
     width: 1305px;

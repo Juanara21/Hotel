@@ -21,6 +21,9 @@ import { InputTextModule } from 'primeng/inputtext';
 import { RadioButtonModule } from 'primeng/radiobutton';
 import { DataViewModule, DataViewLayoutOptions } from 'primeng/dataview';
 import { CardModule } from 'primeng/card';
+import { GalleriaModule } from 'primeng/galleria';
+import { CarouselService } from './servicios/carousel/carousel.service';
+import { CarouselModule } from 'primeng/carousel';
 
 const appRoutes: Routes = [
   { path:'admin',component:AdministracionHotelComponent},
@@ -56,12 +59,16 @@ const appRoutes: Routes = [
     InputTextModule,
     RadioButtonModule,
     DataViewModule, 
-    CardModule
+    CardModule,
+    GalleriaModule,
+    CarouselModule
     
    
 
   ],
-  providers: [],
+  providers: [
+    CarouselService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
