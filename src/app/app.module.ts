@@ -19,6 +19,7 @@ import { FormsModule } from '@angular/forms';
 import { PasswordModule } from 'primeng/password';
 import { InputTextModule } from 'primeng/inputtext';
 import { RadioButtonModule } from 'primeng/radiobutton';
+import { DataViewModule, DataViewLayoutOptions } from 'primeng/dataview';
 
 const appRoutes: Routes = [
   { path:'admin',component:AdministracionHotelComponent},
@@ -52,7 +53,10 @@ const appRoutes: Routes = [
     PasswordModule,
     FormsModule,
     InputTextModule,
-    RadioButtonModule
+    RadioButtonModule,
+    DataViewModule, 
+    
+   
 
   ],
   providers: [],
