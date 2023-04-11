@@ -4,19 +4,19 @@
     <form>
       <label for="nombre">Nombre:</label>
       <input type="text" id="nombre" name="nombre" required>
-  
+
       <label for="direccion">Dirección:</label>
       <input type="text" id="direccion" name="direccion" required>
 
       <label for="nit">NIT:</label>
       <input type="text" id="nit" name="nit" required>
-  
+
       <label for="telefono">Teléfono:</label>
       <input type="tel" id="telefono" name="telefono" required>
-  
+
       <label for="anio-construccion">Año de construcción:</label>
       <input type="number" id="anio-construccion" name="anio-construccion" required>
-  
+
       <label for="categoria">Categoría:</label>
       <select id="categoria" name="categoria" required>
         <option value="">Seleccione una categoría</option>
@@ -26,7 +26,7 @@
         <option value="4">4 Estrellas</option>
         <option value="5">5 Estrellas</option>
       </select>
-  
+
       <label for="tipo-iva">Tipo de IVA:</label>
       <select id="categoria" name="categoria" required>
         <option value="">Seleccione una categoría</option>
@@ -34,19 +34,19 @@
         <option value="0">EXENTO DE IVA</option>
 
       </select>
-  
+
       <label for="descripcion">Descripción:</label>
       <textarea id="descripcion" name="descripcion" rows="10" ></textarea>
-  
+
       <h3>Habitaciones</h3>
       <label for="num-habitaciones">Número de habitaciones:</label>
       <input type="number" id="num-habitaciones" name="num-habitaciones" required min="0">
       <label for="num-pisos">Número de pisos:</label>
       <input type="number" id="num-pisos" name="num-pisos" required min="0">
-  
-      
-  
-      <button type="submit">Guardar</button>
+
+
+
+      <button type="submit" onclick="window.location.href='/InicioSesion'">Guardar</button>
     </form>
   </div>
 <div class="hotel-form">
@@ -59,21 +59,21 @@
           <option value="dobles">Dobles</option>
           <option value="individuales">Individuales</option>
         </select>
-      
+
         <label for="codigo-habitacion">Código de habitación:</label>
         <input type="text" id="codigo-habitacion" name="codigo-habitacion">
-      
+
         <label for="piso-habitacion">Piso de la habitación:</label>
         <input type="number" id="piso-habitacion" name="piso-habitacion" required min="0">
         <div>
             <label for="precio">Precio:</label>
             <input type="text" id="precio" name="precio">
           </div>
-      
-       <button type="submit">Agregar Habitacion</button>
+
+       <button type="submit" onclick="window.location.href='/InicioSesion'">Agregar Habitacion</button>
       </form>
-      
+
 </div>
 </div>
 
-  
+

@@ -24,26 +24,29 @@ import { CardModule } from 'primeng/card';
 import { GalleriaModule } from 'primeng/galleria';
 import { CarouselService } from './servicios/carousel/carousel.service';
 import { CarouselModule } from 'primeng/carousel';
+import { InicioSesionComponent } from './components/inicio-sesion/inicio-sesion.component';
 
 const appRoutes: Routes = [
   { path:'admin',component:AdministracionHotelComponent},
   { path:'detalle',component:DetallesHotelComponent},
   { path:'registrar',component:RegistrarComponent},
   { path:'reservar',component:ReservaHotelComponent},
-  { path:'',component:SectionComponent}
+  { path:'',component:SectionComponent},
+  { path:'InicioSesion',component:InicioSesionComponent}
 
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,  
+    HeaderComponent,
     FooterComponent,
     SectionComponent,
     DetallesHotelComponent,
     ReservaHotelComponent,
     AdministracionHotelComponent,
-    RegistrarComponent
+    RegistrarComponent,
+    InicioSesionComponent
   ],
   imports: [
     BrowserModule,
@@ -58,12 +61,12 @@ const appRoutes: Routes = [
     FormsModule,
     InputTextModule,
     RadioButtonModule,
-    DataViewModule, 
+    DataViewModule,
     CardModule,
     GalleriaModule,
     CarouselModule
-    
-   
+
+
 
   ],
   providers: [

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./registrar.component.css']
 })
 export class RegistrarComponent {
- 
+
       Sexo: string[]=[];
       value: string[]=[];
       Nombre1: string[]=[];
@@ -15,7 +15,7 @@ export class RegistrarComponent {
       Apellido2: string[]=[];
       Correo: string[]=[];
       Identificacion: string[]=[];
-      
+
 }
-  
+
 

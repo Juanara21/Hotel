@@ -1,9 +1,9 @@
 <div class="todo">
     <div class="contenedor">
-    
+
         <h2>Registrarse</h2>
-                
-        
+
+
         <div class="card flex  justify-content-center">
             <input pInputText  placeholder="Primer Nombre" [(ngModel)]="Nombre1"  />
         </div>
@@ -19,41 +19,41 @@
         <div class="card flex  justify-content-center">
             <input pInputText  placeholder="identificación" [(ngModel)]="Identificacion"  />
         </div>
-    
+
             <div class="card flex " style="margin-left: 10px; justify-content: space-between; flex-flow: column wrap">
                 <div class="flex align-items-center">
                     <p-radioButton name="Masculino" value="M" [(ngModel)]="Sexo" inputId="Masculino"></p-radioButton>
                     <label for="Masculino" class="ml-2">Masculino</label>
                 </div>
-                
+
                 <div class="flex align-items-center">
                     <p-radioButton name="Femenino" value="F" [(ngModel)]="Sexo" inputId="Femenino"></p-radioButton>
                     <label for="Femenino" class="ml-2">Femenino</label>
                 </div>
-                
+
                 <div class="flex align-items-center">
                     <p-radioButton name="Otro" value="O" [(ngModel)]="Sexo" inputId="Otro"></p-radioButton>
                     <label for="Otro" class="ml-2">Otro</label>
                 </div>
-                
+
                 <div class="flex align-items-center">
                     <p-radioButton name="Indefinido" value="Onion" [(ngModel)]="Sexo" inputId="Indefinido"></p-radioButton>
                     <label for="Indefinido" class="ml-2">Indefinido</label>
                 </div>
             </div>
-        
-        <div class="card flex  justify-content-center"> 
+
+        <div class="card flex  justify-content-center">
             <input pInputText  placeholder="Correo" [(ngModel)]="Correo" />
         </div>
 
         <div class="card flex justify-content-center" >
             <p-password [(ngModel)]="value" [toggleMask]="true"></p-password>
-        </div>        
-        
+        </div>
+
 
         <div class="card flex flex-wrap gap-3 justify-content-center" >
         <p-button label="Registrarse"></p-button>
         </div>
-     
+
 </div>
 </div>

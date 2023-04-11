@@ -1,0 +1,59 @@
+*{
+  background-color: rgb(238, 247, 250);
+}
+form {
+  padding: 2%;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 30px;
+}
+
+input[type="date"],
+select {
+  display: block;
+  margin-bottom: 20px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 30%;
+  box-shadow: 0px 0px 5px #ffffff;
+  color: #7c7c7c;
+}
+input[type="text"],
+select {
+  display: block;
+  margin-bottom: 20px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 30%;
+  box-shadow: 0px 0px 5px #ffffff;
+  color: #7c7c7c;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: auto;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: rgba(193, 193, 250, 0.219);
+  transition: transform 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.2); /* Hace que el texto crezca cuando se coloca el cursor sobre el botón */
+}
+form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 25%;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 5px #ffffff;
+  color: #7c7c7c;
+}
