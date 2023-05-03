@@ -22,7 +22,7 @@ import { RadioButtonModule } from 'primeng/radiobutton';
 import { DataViewModule, DataViewLayoutOptions } from 'primeng/dataview';
 import { CardModule } from 'primeng/card';
 import { GalleriaModule } from 'primeng/galleria';
-import { CarouselService } from './servicios/carousel/carousel.service';
+
 import { CarouselModule } from 'primeng/carousel';
 import { InicioSesionComponent } from './components/inicio-sesion/inicio-sesion.component';
 
@@ -63,14 +63,13 @@ const appRoutes: Routes = [
     RadioButtonModule,
     DataViewModule,
     CardModule,
-    GalleriaModule,
-    CarouselModule
+    GalleriaModule
 
 
 
   ],
   providers: [
-    CarouselService
+    
   ],
   bootstrap: [AppComponent]
 })
