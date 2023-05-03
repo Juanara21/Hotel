@@ -18,8 +18,9 @@ export class HeaderComponent implements OnInit {
               { label: 'Registrarse', icon: 'pi pi-fw pi-pencil', routerLink: '/registrar' },
               { label: 'Registra tus Hoteles', icon: 'pi pi-fw pi-cog' , routerLink: '/admin'  },
               { label: 'ejemplo 4', icon: 'pi pi-fw pi-cog' , routerLink: '/ejemplo4'  },
-              { label: 'ejemplo 5', icon: 'pi pi-fw pi-cog' , routerLink: '/ejemplo5'  }
-          ];
+              { label: 'ejemplo 5', icon: 'pi pi-fw pi-cog' , routerLink: '/ejemplo5'  },
+              { label: 'ejemplo 6', icon: 'pi pi-fw pi-cog' , routerLink: '/ejemplo6'  }
+               ];
       }
   }
 

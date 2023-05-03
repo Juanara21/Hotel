@@ -4,6 +4,6 @@ export interface UsuarioI{
   cargo?: string; // el ? es para que sea opcional y n obligatrio
   salario: number;
 
-  mostrarUsuario ():void
-  edad(): number
+ // mostrarUsuario ():void
+  //edad(): number
 }

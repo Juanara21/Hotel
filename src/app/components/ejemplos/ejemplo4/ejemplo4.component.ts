@@ -5,8 +5,8 @@ import { UsuarioI } from 'src/models/user';
   templateUrl: './ejemplo4.component.html',
   styleUrls: ['./ejemplo4.component.css']
 })
-export class Ejemplo4Component implements OnInit {
-  ngOnInit(): void {
+export class Ejemplo4Component {
+ /* ngOnInit(): void {
     let user1:UsuarioI = {
       name: "mr",
       FechaNac: new Date ('2002-08-19'),
@@ -32,5 +32,5 @@ export class Ejemplo4Component implements OnInit {
     user1.mostrarUsuario()
     console.log(`La edad de ${user1.name} es ${user1.edad()}`);
   }
-
+*/
 }
